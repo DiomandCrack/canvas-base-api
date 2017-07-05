@@ -37,17 +37,17 @@
     
     ctx.lineWidth = 10;
     
-    ctx.transform(1, 0, 0, 1, 200, 50);
-    ctx.transform(1*Math.cos(angle), 1*Math.sin(angle), -1*Math.sin(angle), 1*Math.cos(angle), 0, 0);
+    // ctx.transform(1, 0, 0, 1, 200, 50);
+    // ctx.transform(1*Math.cos(angle), 1*Math.sin(angle), -1*Math.sin(angle), 1*Math.cos(angle), 0, 0);
     // ctx.transform(1*Math.cos(angle), 1*Math.sin(angle), -1*Math.sin(angle), 1*Math.cos(angle), 200, 50);
     // ctx.setTransform(2, 0, 0, 2, 100, 100);
     // ctx.setTransform(1.5, 0, 0.75, 1.5, 100, 100);
     ctx.beginPath();
-    ctx.strokeRect(0, 0, 100, 100);
+    // ctx.strokeRect(0, 0, 100, 100);
     
     
     /**
-     * CanvasRenderingContext2D 提供了原生的 scale(num) translate(newX, newY) rotate(deg) 用来对坐标系进行旋转缩放
+     * CanvasRenderingContext2D 提供了原生的 scale(numX, numY) translate(newX, newY) rotate(deg) 用来对坐标系进行旋转缩放
      * 注意： 没有提供斜切，如果需要斜切那么需要使用 transform 或者 setTransform
      */
     
